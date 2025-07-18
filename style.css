@@ -54,6 +54,23 @@ footer {
   font-size: 0.9rem;
 }
 
+code {
+  background: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 h1 {
   text-align: center;
   color: #1f78b4;
