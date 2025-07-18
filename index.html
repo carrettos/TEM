@@ -9,7 +9,37 @@
 </head>
 <body>
   <h1>🧠 Mapa Interactivo de Shock</h1>
-  <p>Haz clic sobre un tipo de shock para ver detalles clínicos.</p>
+   <h1>📊 Índice de Shock</h1>
+
+  <div class="card">
+    <h2>🧮 ¿Cómo se calcula?</h2>
+    <p><strong>Fórmula:</strong> <code>Índice de Shock = Frecuencia Cardíaca ÷ Presión Arterial Sistólica</code></p>
+    <p><strong>Ejemplo:</strong> FC = 110 lpm, PAS = 90 mmHg → Índice = 110 ÷ 90 = <strong>1.22</strong></p>
+
+    <h2>📌 Interpretación Clínica</h2>
+    <table>
+      <tr>
+        <th>Índice</th>
+        <th>Significado</th>
+      </tr>
+      <tr>
+        <td>&lt; 0.7</td>
+        <td>Normal</td>
+      </tr>
+      <tr>
+        <td>0.7 – 0.9</td>
+        <td>Compensación hemodinámica</td>
+      </tr>
+      <tr>
+        <td>0.9 – 1.2</td>
+        <td>Shock incipiente</td>
+      </tr>
+      <tr>
+        <td>&gt; 1.2</td>
+        <td>Shock significativo</td>
+      </tr>
+    </table>
+
 
   <div class="mapa">
     <button onclick="mostrar('hipovolemico')">💧 Hipovolémico</button>
