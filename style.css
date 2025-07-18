@@ -7,10 +7,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #1f78b4;
-}
-
 .mapa {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -56,36 +52,46 @@ footer {
   margin-top: 4rem;
   color: #888;
   font-size: 0.9rem;
-}h1 {
-      color: #1f78b4;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    .card {
-      background: #ffffff;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    code {
-      background: #f0f0f0;
-      padding: 0.2rem 0.4rem;
-      border-radius: 4px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 0.6rem;
-      text-align: center;
-    }
-    th {
-      background-color: #3498db;
-      color: white;
-    }
+}
+
+h1 {
+  text-align: center;
+  color: #1f78b4;
+  margin-bottom: 1rem;
+}
+
+p.definicion {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f8ff;
+}
+
+td strong {
+  color: #e74c3c;
+}
+
+td.solution {
+  color: #2c3e50;
+  font-style: italic;
+}
+
