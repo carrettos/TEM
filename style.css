@@ -65,6 +65,21 @@ ul {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
 p.definicion {
   text-align: center;
   font-size: 1rem;
@@ -99,6 +114,6 @@ td strong {
 td.solution {
   color: #2c3e50;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
