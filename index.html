@@ -1,2 +1,31 @@
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#3498db">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa de Shock - Interactivo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#3498db">
+</head>
+<body>
+  <h1>🧠 Mapa Interactivo de Shock</h1>
+  <p>Haz clic sobre un tipo de shock para ver detalles clínicos.</p>
+
+  <div class="mapa">
+    <button onclick="mostrar('hipovolemico')">💧 Hipovolémico</button>
+    <button onclick="mostrar('septico')">🧬 Séptico</button>
+    <button onclick="mostrar('anafilactico')">🤧 Anafiláctico</button>
+    <button onclick="mostrar('neurogenico')">🧠 Neurogénico</button>
+    <button onclick="mostrar('cardiogenico')">❤️ Cardiogénico</button>
+    <button onclick="mostrar('obstructivo')">💥 Obstructivo</button>
+  </div>
+
+  <div id="contenido" class="contenido"></div>
+
+  <footer>
+    <p>© 2025 ShockMaster por Hugo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
